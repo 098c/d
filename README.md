@@ -1,4 +1,3 @@
 ```
-py ddos-attack.py
 
 ```
