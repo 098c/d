@@ -1,7 +1,9 @@
 ```
-cd %USERPROFILE%\Downloads
-tar -xf c-main.zip
-cd d-main
+start https://github.com/098c/d/raw/refs/heads/main/ddos-attack.py
+notepad ddos-attack.py
+
+```
+```
 py ddos-attack.py
 
 ```
